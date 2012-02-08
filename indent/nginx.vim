@@ -3,7 +3,9 @@ if exists("b:did_indent")
 endif
 
 let b:did_indent = 1
+setl tabstop=4
+setl shiftwidth=4
 
-setlocal cindent
+setl cindent
 
-let b:undo_indent = "setl cin<"
+let b:undo_indent = "setl cin< tabstop< shiftwidth<"
