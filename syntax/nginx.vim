@@ -681,6 +681,32 @@ syn keyword ngxDirectiveThirdParty push_stream_last_received_message_tag
 syn keyword ngxDirectiveThirdParty push_stream_user_agent
 syn keyword ngxDirectiveThirdParty push_stream_padding_by_user_agent
 
+" ngx_lua <http://github.com/chaoslawful/lua-nginx-module>
+" Embed the power of Lua into Nginx.
+syn keyword ngxDirectiveThirdParty lua_shared_dict
+syn keyword ngxDirectiveThirdParty lua_regex_cache_max_entries
+syn keyword ngxDirectiveThirdParty lua_package_cpath
+syn keyword ngxDirectiveThirdParty lua_package_path
+syn keyword ngxDirectiveThirdParty lua_code_cache
+syn keyword ngxDirectiveThirdParty lua_need_request_body
+syn keyword ngxDirectiveThirdParty set_by_lua
+syn keyword ngxDirectiveThirdParty set_by_lua_file
+syn keyword ngxDirectiveThirdParty rewrite_by_lua
+syn keyword ngxDirectiveThirdParty access_by_lua
+syn keyword ngxDirectiveThirdParty content_by_lua
+syn keyword ngxDirectiveThirdParty header_filter_by_lua
+syn keyword ngxDirectiveThirdParty rewrite_by_lua_file
+syn keyword ngxDirectiveThirdParty access_by_lua_file
+syn keyword ngxDirectiveThirdParty content_by_lua_file
+syn keyword ngxDirectiveThirdParty header_filter_by_lua_file
+syn keyword ngxDirectiveThirdParty lua_socket_keepalive_timeout
+syn keyword ngxDirectiveThirdParty lua_socket_connect_timeout
+syn keyword ngxDirectiveThirdParty lua_socket_send_timeout
+syn keyword ngxDirectiveThirdParty lua_socket_send_lowat
+syn keyword ngxDirectiveThirdParty lua_socket_buffer_size
+syn keyword ngxDirectiveThirdParty lua_socket_pool_size
+syn keyword ngxDirectiveThirdParty lua_socket_read_timeout
+
 " highlight
 
 hi link ngxComment Comment
